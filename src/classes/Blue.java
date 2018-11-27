@@ -1,0 +1,12 @@
+package classes;
+
+import interfaces.Color;
+
+public class Blue implements Color {
+
+	@Override
+	public void fill() {
+		System.out.println("Fill blue color");
+	}
+
+}
